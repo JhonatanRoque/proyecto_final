@@ -10,6 +10,10 @@ public class Proyecto_final {
         sc.useLocale(Locale.US);
         double radio=sc.nextDouble();
         System.out.println("");
+        //Formula area circulo, usamos algunos de los metodos de Math
+        double area=Math.PI*Math.pow(radio, 2);
+  
+        System.out.println("El area del circulo es "+area);
     }
     
 }
